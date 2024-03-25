@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 금성 아트허브 </title>
+    <style> 
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* header > ul 로 ul에 지정해두었습니다 혹시 틀어질 경우 ul 지정을 풀어주세요*/
+header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  border-bottom-style: solid;
+  border-width: 0.1px;
+  list-style: none;
+  padding-inline: 120px;
+}
+
+.hub > a{
+  margin: 25px;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login > a{
+  margin: 4px;
+}
+aside > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+aside > div:nth-of-type(1) > button {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-width: 0.1px;
+  background: none;
+}
+
+aside > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+aside > div:nth-of-type(2) > div:nth-of-type(1) {
+  font-size: 30px;
+  padding: 30px;
+}
+
+main > div:nth-of-type(1) {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+}
+
+main > div:nth-of-type(2) {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 300px 300px 300px 300px;
+  padding: 10px;
+}
+
+main > div:nth-of-type(2) > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+  border-style: solid;
+  border-width: 0.1px;
+}
+
+main > div:nth-of-type(2) > article > div:nth-of-type(1) {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  padding-top: 150px;
+}
+
+footer > ul {
+  list-style: none;
+}
+
+#footer-company-guide > li {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+#footer-company-guide > li > a{
+  margin: 0 2px;
+  color: black;
+  text-decoration-line: none;
+}
+
+    </style>
+</head>
+  <body>
+    <!-- Header Start -->
+    <header>
+        <ul id="main-header">
+            <li class="logo">
+              <a href="https://arthub.kumsung.co.kr/"> <img src="./금성아트허브로고.jpg" style="width: 100%; height: 50px;"></a>
+            </li>
+            <li class="hub">
+              <a href="https://arthub.kumsung.co.kr/arthub/work">아트허브</a>
+              <a href="https://arthub.kumsung.co.kr/musichub/music-history">뮤직허브</a>
+            </li>
+            <li class="login">
+              <a href="https://thub.kumsung.co.kr/login.do?returnUrl=https://arthub.kumsung.co.kr/musichub/music-history">로그인</a>
+              <a href=""> <img src="./음악.jpg" alt=""style="width: 50px; height: 50px;"></a>
+              <a href=""> <img src="./검색.jpg" alt="https://arthub.kumsung.co.kr/search" style="width: 25px; height: 25px;"></a>
+              <a href=""><img src="./더보기.jpg" alt="" style="width: 25px; height: 25px;"></a>
+            </li>
+        </ul>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+      <div>총 59명의 작가를 소개합니다</div>
+      <div>
+        <article>
+          <div>ㄱ</div>
+          <div>고야</div>
+          <div>구스타프 클림트</div>
+        </article>
+        <article>
+          <div>ㄴ</div>
+        </article>
+        <article>
+          <div>ㄷ</div>
+          <div>달리</div>
+          <div>뒤러</div>
+          <div>뒤샹</div>
+          <div>뒤피</div>
+          <div>드가</div>
+          <div>들라크루아</div>
+        </article>
+        <article>
+          <div>ㄹ</div>
+          <div>라파엘로</div>
+          <div>레오나르도 다 빈치</div>
+          <div>레제</div>
+          <div>렘브란트</div>
+          <div>로댕</div>
+          <div>로트레크</div>
+        </article>
+        <article>
+          <div>ㅁ</div>
+          <div>마그리트</div>
+          <div>마네</div>
+          <div>마티스</div>
+          <div>모네</div>
+          <div>모딜리아니</div>
+          <div>모로</div>
+        </article>
+        <article>
+          <div>ㅂ</div>
+          <div>반고흐</div>
+          <div>베르메르</div>
+          <div>보나르</div>
+          <div>보스</div>
+          <div>보티첼리</div>
+          <div>부르델</div>
+        </article>
+        <article>
+          <div>ㅅ</div>
+          <div>샤갈</div>
+          <div>샤르댕</div>
+          <div>세장</div>
+          <div>쇠라</div>
+          <div>시슬레</div>
+        </article>
+        <article>
+          <div>ㅇ</div>
+          <div>앙리 루소</div>
+          <div>앙소르</div>
+          <div>앵그르</div>
+          <div>에른스트</div>
+          <div>엘 그레코</div>
+          <div>위트릴로</div>
+        </article>
+        <article>
+          <div>ㅈ</div>
+          <div>자크 루이 다비드</div>
+          <div>장 앙투안 와토</div>
+          <div>지오토</div>
+        </article>
+        <article>
+          <div>ㅊ</div>
+        </article>
+        <article>
+          <div>ㅋ</div>
+          <div>칸딘스키</div>
+          <div>코로</div>
+          <div>쿠르베</div>
+          <div>클레</div>
+        </article>
+        <article>
+          <div>ㅌ</div>
+          <div>터너</div>
+        </article>
+        <article>
+          <div>ㅍ</div>
+          <div>폴고갱</div>
+          <div>피사로</div>
+          <div>피카소</div>
+        </article>
+        <article>
+          <div>ㅎ</div>
+          <div>호안 미로</div>
+        </article>
+      </div>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <ul id="main-footer">
+            <li><a href="https://arthub.kumsung.co.kr/"><img src="./금성아트허브footer로고.png" alt="" style="width: 120px;"></a></li>
+        </ul>
+        <ul id="footer-company-guide">
+            <li>
+              <a href="https://www.kumsung.co.kr/about"> 회사소개</a>
+              <a>|</a>
+              <a href="https://cs.kumsung.co.kr/member/common/agreement.do"> 이용약관</a>
+              <a>|</a>
+              <a href="https://cs.kumsung.co.kr/member/common/personal.do"> 개인정보취급방침</a>
+              <a>|</a>
+              <a href="https://cs.kumsung.co.kr:444/member/customer/callCenter.do"> 문의전화</a>
+              <a>|</a>
+              <a href="https://cs.kumsung.co.kr/member/customer/map.do"> 찾아오시는길</a>
+            </li>
+            <li> (주)금성출판사 | 주소 : 서울시 마포구 만리재옛길 23</li>
+            <li> Copyright© Kumsung Publishing All RIGHTS RESERVED </li>
+        </ul>
+            <select id="falily site list" style=" width: 180px; height: 50px;" >
+              <option value=" "> family site </option>  <!--url주소 삽입이 잘 모르겠습니다.(후원해주는 사이트를 표현한 것 같습니다.) -->
+              <option value="https://www.kumsung.co.kr/"> 금성출판사 </option>
+              <option value="https://purunet.kumsung.co.kr/"> 푸르넷 공부방 </option>
+              <option value="https://thub.kumsung.co.kr/elementary/main.do"> 초등 티칭허브 </option>
+              <option value="https://www.purunet-ischool.co.kr/main.ks"> 푸르넷 아이스쿨</option>
+              <option value="https://thub.kumsung.co.kr/main.do"> 중고등 티칭허브 </option>
+              <option value="https://www2.englishbuddy.kr/"> English buddy </option>
+              <option value="https://thub.kumsung.co.kr/web/main.do"> 티칭백과</option>
+              <option value="https://mall.kumsung.co.kr/index.do"> 푸르넷 에듀 </option>
+              <option value="https://text.kumsung.co.kr/"> 금성교과서</option>
+              <option value="https://www.kscf.co.kr/"> 금성문화재단</option>
+            </select>
+        </ul>
+    </footer>
+    <!-- Footer End -->
+    </body>
+</html>
